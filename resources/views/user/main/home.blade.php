@@ -74,7 +74,7 @@
                                 <div class="product-img position-relative overflow-hidden">
                                     <img class="img-fluid w-100" style="height: 250px" src="{{asset('storage/'.$p->image)}}" alt="">
                                     <div class="product-action">
-                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                        {{-- <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a> --}}
                                         <a class="btn btn-outline-dark btn-square" href="{{route('pizza#pizzaDetails',$p->id)}}"><i class="fa-solid fa-circle-info"></i></a>
 
                                     </div>
