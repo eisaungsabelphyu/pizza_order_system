@@ -20,9 +20,9 @@
                                             <i class="zmdi zmdi-plus"></i>Add Category
                                         </button>
                                     </a>
-                                    <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                    {{-- <button class="au-btn au-btn-icon au-btn--green au-btn--small">
                                         CSV download
-                                    </button>
+                                    </button> --}}
                                 </div>
                             </div>
                             @if (session('deleteSuccess'))

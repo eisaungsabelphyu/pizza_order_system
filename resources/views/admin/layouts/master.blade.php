@@ -147,7 +147,8 @@
                                                         <i class="zmdi zmdi-power"></i> Logout
                                                     </button>
                                                 </form>
-                                       @yield('content')     </div>
+                                           </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +159,7 @@
             </header>
             <!-- HEADER DESKTOP-->
 
-
+            @yield('content') 
             <!-- END PAGE CONTAINER-->
         </div>
 
